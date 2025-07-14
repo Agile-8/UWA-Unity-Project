@@ -17,6 +17,8 @@ public class StimulationController : MonoBehaviour
     public Transform left;
     public GameObject square;
     public GameObject square2;
+    public GameObject square3;
+    public GameObject square4;
     public GameObject soundObject;
     private GameObject stimul;
 
@@ -58,24 +60,42 @@ public class StimulationController : MonoBehaviour
                     int randNum = UnityEngine.Random.Range(0, 3);
                     if (randNum == 1)
                     {
-                        if (UnityEngine.Random.Range(0, 2) == 1)
+                        int randNum2 = UnityEngine.Random.Range(0, 4);
+                        if (randNum2 == 1)
                         {
                             stimul = Instantiate(square, right);
                         }
-                        else
+                        else if (randNum2 == 2)
                         {
                             stimul = Instantiate(square2, right);
+                        }
+                        else if (randNum2 == 3)
+                        {
+                            stimul = Instantiate(square3, right);
+                        }
+                        else
+                        {
+                            stimul = Instantiate(square4, right);
                         }
                     }
                     else if (randNum == 2)
                     {
-                        if (UnityEngine.Random.Range(0, 2) == 1)
+                        int randNum2 = UnityEngine.Random.Range(0, 4);
+                        if (randNum2 == 1)
                         {
                             stimul = Instantiate(square, left);
                         }
-                        else
+                        else if (randNum2 == 2)
                         {
                             stimul = Instantiate(square2, left);
+                        }
+                        else if (randNum2 == 3)
+                        {
+                            stimul = Instantiate(square3, left);
+                        }
+                        else
+                        {
+                            stimul = Instantiate(square4, left);
                         }
                     }
                     else

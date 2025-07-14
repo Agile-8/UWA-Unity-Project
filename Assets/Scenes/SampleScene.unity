@@ -722,8 +722,10 @@ MonoBehaviour:
   maxTime: 5
   right: {fileID: 2146807427}
   left: {fileID: 1897265251}
-  square: {fileID: 4971781536511228164, guid: 4288408940eddaf41b3ab9c026d52a31, type: 3}
-  square2: {fileID: 8365121969906503909, guid: 9ee26efb6ca5d714d96fea1d9cbcf787, type: 3}
+  square: {fileID: 8365121969906503909, guid: 9ee26efb6ca5d714d96fea1d9cbcf787, type: 3}
+  square2: {fileID: 4971781536511228164, guid: 4288408940eddaf41b3ab9c026d52a31, type: 3}
+  square3: {fileID: 8622846834579497651, guid: 8e105057606ab4341a92547bf3e645cd, type: 3}
+  square4: {fileID: 8762963392000922315, guid: 86da2f1dd4310cb4b96be57c1ff22efc, type: 3}
   soundObject: {fileID: 6290474734355402750, guid: af317a4c2bcd0d14f9ace5644382c01a,
     type: 3}
 --- !u!1 &1897265250
